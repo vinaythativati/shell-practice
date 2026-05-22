@@ -1,8 +1,8 @@
 #!/bin/bash
 
-Trump: 'hey iran this is my warning'
-iran: 'iam ready to face'
-Trump: 'be prepare for war'
-iran: 'i m ok you as well'
-Trump: 'let start war'
-iran: 'let c who will win'
+Trump: echo 'hey iran this is my warning'
+iran: echo 'iam ready to face'
+Trump: echo 'be prepare for war'
+iran: echo 'i m ok you as well'
+Trump: echo 'let start war'
+iran: echo 'let c who will win'
