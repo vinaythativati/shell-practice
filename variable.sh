@@ -14,4 +14,5 @@ echo $person2: 'let c who will winsfsdfsd'
 echo "congidential"
 echo "uername"
 read username
-echo "thi sis my user name $username"
+read -s password
+echo "thi sis my user name $username hi $password"
