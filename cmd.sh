@@ -11,7 +11,7 @@ fi
    echo "installing mysql"
 dnf install mysql -y
 
-if [ $? = 0]; then
+if [ $? = 0 ]; then
     echo "mysql installed successfully"
 else
     echo "mysql installation failed"
