@@ -9,7 +9,7 @@ fi
 
    #installing mysq
    echo "installing mysql"
-dnf install mysqlrte -y
+dnf install mysql -y
 
 if [ $? = 0]; then
     echo "mysql installed successfully"
