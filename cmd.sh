@@ -5,7 +5,7 @@ user=$(id -u)
 if [ $user -ne 0 ]; then
     echo "run with super user"
     
-
-fi
 exit 1
+fi
+
     echo "welcome to shell scripting"
