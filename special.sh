@@ -10,3 +10,5 @@ echo "print script name: $0"
 echo "print first varibale: $first"
 echo "print second variable: $second"
 echo "print user : $USER"
+echo "woring dir : $PWD"
+
