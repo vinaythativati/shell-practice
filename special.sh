@@ -19,5 +19,5 @@ wait $!
 echo "print line no: $LINENO"
 echo "print script exection time :$SECONDS"
 echo "print $RANDOM"
-echo$?
+echo "print exit code :$?"
 
