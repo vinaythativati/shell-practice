@@ -15,7 +15,7 @@ echo "user home dir :$HOME"
 echo "script PID : $$"
 sleep 5 &
 echo "background pID: $!"
-# wait $!
+wait $!
 echo "print line no: $LINENO"
 echo "print script exection time :$SECONDS"
 
