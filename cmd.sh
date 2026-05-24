@@ -4,8 +4,15 @@ user=$(id -u)
 
 if [ $user -ne 0 ]; then
     echo "run with super user"
-    
-exit 1
+    exit 1
 fi
 
-    echo "welcome to shell scripting"
+   #installing mysq
+   echo "installing mysql"
+dnf install mysqlrte -y
+
+if [ $? = 0]; then
+    echo "mysql installed successfully"
+else
+    echo "mysql installation failed"
+fi
