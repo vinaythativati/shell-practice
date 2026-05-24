@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "All variables passwd to script :$@"
+name=$@
+echo "All variables passwd to script :$name"
