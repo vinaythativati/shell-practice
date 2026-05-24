@@ -13,3 +13,6 @@ echo "print user : $USER"
 echo "woring dir : $PWD"
 echo "user home dir :$HOME"
 echo "script PID : $$"
+sleep 5
+echo "background pID: $!"
+
