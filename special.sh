@@ -17,6 +17,6 @@ sleep 5 &
 echo "background pID: $!"
 # wait $!
 echo "print line no: $LINENO"
-$SECONDS
+echo "print script exection time :$SECONDS"
 
 
