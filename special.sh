@@ -21,3 +21,6 @@ echo "print script exection time :$SECONDS"
 echo "print $RANDOM"
 echo "print exit code :$?"
 
+movies=("jai" "i" "ai")
+echo "movies are: ${movies[@]}
+
