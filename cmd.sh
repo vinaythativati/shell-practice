@@ -15,4 +15,5 @@ if [ $? = 0]; then
     echo "mysql installed successfully"
 else
     echo "mysql installation failed"
+    exit 1
 fi
