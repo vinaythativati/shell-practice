@@ -15,4 +15,5 @@ echo "user home dir :$HOME"
 echo "script PID : $$"
 sleep 5 &
 echo "background pID: $!"
+echo "print line no: $LINENO"
 
